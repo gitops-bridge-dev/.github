@@ -1,6 +1,6 @@
 ## Welcome to the GitOps Bridge Project 👋
 
-The GitOps Bridge is a community project to show best practices and patterms on how to bridge the process of creating a Kubernetes Cluster to then delegate everything after that to GitOps using [ArgoCD](https://www.cncf.io/projects/argo/) or [FluxCD](https://www.cncf.io/projects/flux/) both CNCF graduated projects.
+The [GitOps Bridge](https://github.com/gitops-bridge-dev/gitops-bridge) is a community project to show best practices and patterms on how to bridge the process of creating a Kubernetes Cluster to then delegate everything after that to GitOps using [ArgoCD](https://www.cncf.io/projects/argo/) or [FluxCD](https://www.cncf.io/projects/flux/) both CNCF graduated projects.
 
 See the git repository [GitOps Control Plane](https://github.com/gitops-bridge-dev/gitops-bridge-argocd-control-plane-template) for an example template on bootstrapping ArgoCD
 
