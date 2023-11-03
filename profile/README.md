@@ -1,15 +1,5 @@
 ## Welcome to the GitOps Bridge Project 👋
 
-The [GitOps Bridge](https://github.com/gitops-bridge-dev/gitops-bridge) is a community project that aims to showcase best practices and patterns for bridging the process of creating a Kubernetes cluster to subsequently managing everything through GitOps. It focuses on using [ArgoCD](https://www.cncf.io/projects/argo/) or [FluxCD](https://www.cncf.io/projects/flux/), both of which are CNCF-graduated projects.
-
-For an example template on bootstrapping ArgoCD, see the GitHub repository [GitOps Control Plane](https://github.com/gitops-bridge-dev/gitops-bridge-argocd-control-plane-template).
-
-There are many tools available for creating Kubernetes clusters. These include "roll-your-own" solutions like `kubeadm`, `minikube`, and `kind`, as well as cloud-managed services like Amazon EKS. The method of cluster creation should not impact GitOps compatibility; GitOps engines should work with any tool that the user chooses for cluster creation. This includes scenarios where Kubernetes is used to create other Kubernetes clusters, such as with CAPI/CAPA, Crossplane, ACK, or any tool running inside Kubernetes to deploy Kubernetes.
-
-The GitOps Bridge becomes extremely important in the context of cloud-managed Kubernetes clusters, as these clusters often have integrations with cloud services. When using GitOps to install a tool in such cases, the tool—usually configured via Helm—needs to be set up with metadata about resources or workload identities (like IAM). This metadata is often available as a result of running an Infrastructure as Code (IaC) tool such as Terraform, CloudFormation, or a cloud CLI. The GitOps Bridge provides patterns for bridging this metadata to GitOps, using features specific to the GitOps engine in use.
-
-The GitOps Bridge should also be compatible with GitOps engines that run as SaaS and are not installed inside the cluster, such as the Akuity Platform, CodeFresh, Weaveworks, and others.
-
 
 <img src="https://raw.githubusercontent.com/gitops-bridge-dev/gitops-bridge/main/argocd/iac/terraform/examples/eks/getting-started/static/gitops-bridge.drawio.png" width=100%>
 
