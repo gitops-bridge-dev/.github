@@ -1,4 +1,4 @@
-## Welcome to the GitOps Bridge Project 👋
+## Try the KubeCon/ArgoCon 2023 GitOps-Bridge demo [here](https://github.com/gitops-bridge-dev/kubecon-2023-na-argocon) 🚀
 
 
 <img src="https://raw.githubusercontent.com/gitops-bridge-dev/.github/main/static/GitOpsBridge.png" width=100%>
